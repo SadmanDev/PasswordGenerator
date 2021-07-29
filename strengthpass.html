@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="two">
+
+			<div class="container">
+				<h2>Check Your Password Strength</h2>
+				<form action="#">
+            <div class="field">
+               <input onkeyup="trigger()" type="password" placeholder="Type password">
+               <span class="showBtn">SHOW</span>
+            </div>
+            <div class="indicator">
+               <span class="weak"></span>
+               <span class="medium"></span>
+               <span class="strong"></span>
+            </div>
+            <div class="text"></div>
+         </form>
+			</div>
+		</section>
+
+		<script src="str.js" type="text/javascript"></script>
+</body>
+</html>
